@@ -1,0 +1,154 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(255, 130, 45, 0.85);
+  font-family: 'Montserrat', sans-serif;
+  color: #fff
+}
+
+html {
+  background: url('https://static.pexels.com/photos/818/sea-sunny-beach-holiday.jpg');
+  background-size: cover;
+  background-position: bottom
+}
+
+.error {
+  text-align: center;
+  padding: 16px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%)
+}
+
+h1 {
+  margin: -10px 0 -30px;
+  font-size: calc(17vw + 40px);
+  opacity: .8;
+  letter-spacing: -17px;
+}
+
+p {
+  opacity: .8;
+  font-size: 20px;
+  margin: 8px 0 38px 0;
+  font-weight: bold
+}
+
+input,
+button,
+input:focus,
+button:focus {
+  border: 0;
+  outline: 0!important;
+}
+
+input {
+  width: 300px;
+  padding: 14px;
+  max-width: calc(100% - 80px);
+  border-radius: 6px 0 0 6px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  width: 40px;
+  padding: 14.5px 16px 14.5px 12.5px;
+  vertical-align: top;
+  border-radius: 0 6px 6px 0;
+  color: grey;
+  background: silver;
+  cursor: pointer;
+  transition: all 0.4s
+}
+
+button:hover {
+  color: white;
+  background: #9A5C32
+}
+
+.fa-arrow-left {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  font-size: 2em;
+  color:white;
+  text-decoration:none
+}
+
+
+/* MY OLD STUFF
+disregard everyhting below
+
+<div class="error-pg">
+        
+        <div class="error-cont-top" align="center">
+            <div class="logo-cont">
+                <div class="logo" align="left">
+                    <a href="<?php echo $this->baseurl; ?>/index.php"> 
+                        <?php echo htmlspecialchars($app->getCfg('sitename')); ?>
+                    </a> 
+                </div>
+            </div>
+            
+            <div class="error-box-code"><?php echo $this->error->getCode(); ?></div>
+        </div>
+        
+      	<div class="error-cont-bottom" align="center">
+        	<div class="error-cont-inner">
+          		<div class="error-box" align="center">
+            		<div class="error-box-msg"><?php echo $this->error->getMessage(); ?></div>
+            		<div class="error-msg-back"><?php echo JText::_('MN_404_ERROR'); ?></div>
+                    <div class="error-box-msg"><?php echo JText::_('MN_404_ERROR_LINK_HEADER'); ?></div>
+          			<div class="error-msg-back">
+                    	<ul>
+                        	<li>
+                            	<a href="<?php echo $this->baseurl; ?>/index.php" ><?php echo JText::_('MN_404_ERROR_GO_HOME'); ?></a>
+                            	<p><?php echo JText::_('MN_404_ERROR_GO_HOME_MSG'); ?></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        	</div>
+      	</div>
+        
+	</div>*/
+
+
+/*html{height:100%;background:#494949}
+body{background:#393939;margin:0;font-family:Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif}
+.logo-cont{padding:25px 30px;margin:0}
+.logo-cont .logo{text-align:center;padding:20px 0 0}
+.logo-cont a{font-size:45px;font-weight:400;color:#fff;text-decoration:none;display:block}
+.error-box-image-inner{width:90px;height:120px;background:#221E1D;border-radius:50%;padding:35px 50px}
+.error-box-image-inner img{max-width:100%;width:100%}
+.error-box-code{font-size:12em;font-weight:300;color:#fff;padding:10px 20px 20px}
+.error-cont-top{background:#393939}
+.error-cont-bottom{background:#494949}
+.error-cont-inner{padding:30px 20px}
+.error-box-msg{font-size:20px;font-weight:600;color:#e2e2e2;text-shadow:none;margin:10px 0 0;padding:10px 0;width:300px;text-align:left}
+.error-msg-back{font-size:15px;font-weight:300;color:#e2e2e2;margin:0 0 20px;width:300px;text-align:left}
+.error-msg-back ul{margin:0;padding:0 0 0 18px}
+.error-msg-back a{color:#eee}
+.error-msg-back a:hover,.error-msg-back a:focus{color:#fff}
+@media (min-width: 768px) and (max-width: 1024px) {
+.error-box-image-inner{width:45px;height:60px;padding:22px 30px}
+.error-box-code{font-size:10em}
+}
+@media (min-width: 400px) and (max-width: 767px) {
+.logo-cont{text-align:center;display:inline-block}
+.error-box-image-inner{width:45px;height:60px;padding:22px 30px}
+.error-box-code{font-size:8em}
+}
+@media (max-width: 399px) {
+.logo-cont{text-align:center;display:inline-block}
+.logo-cont a{font-size:38px}
+.error-box-image-inner{width:45px;height:60px;padding:22px 30px}
+.error-box-msg,.error-msg-back{width:200px}
+.error-box-code{font-size:6em}
+}*/
