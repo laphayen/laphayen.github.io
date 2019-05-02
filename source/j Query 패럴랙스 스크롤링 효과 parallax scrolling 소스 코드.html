@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>codeomni.tistory.com j Query 패럴랙스 스크롤링 효과 parallax scrolling 소스 코드</title>
+		<style>
+			*, html {
+				margin: 0;
+   				padding: 0;
+			}
+			.backgroundimage {
+			    background-position: center;
+			    background-size: cover;
+			}
+		</style>
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				var wd = $(window);
+				
+				$('section[data-type="background"]').each(function(){
+					var bg = $(this);
+					
+					$(window).scroll(function() {
+						var yPos = -(wd.scrollTop() / bg.data('speed'));						
+						var coords = '50%' + yPos + 'px';						
+						bg.css({backgroundPosition: coords});
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>	
+		<div>
+			<section id="sky" data-type="background" data-speed="0.5">
+				<article><img class="backgroundimage" src="parallax.png"></article>
+			</section>
+		</div>
+	</body>
+</html>
