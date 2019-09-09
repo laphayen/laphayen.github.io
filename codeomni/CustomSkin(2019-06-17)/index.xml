@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin version="1.0" language="ko">
+	<information>
+		<name>Surrounded(Sky Blue)</name>
+		<version>1.0</version>
+		<description>
+			<![CDATA[ 웹표준을 준수한 XHTML 기반의 스킨입니다.
+			시맨틱한 웹을 유지하기 위해 디자인 부분을 style.css 파일에 독립시켜 적용하였습니다.
+			블로그 이미지 사이즈 및 사이드바 가로 사이즈 160px, 콘텐츠 가로 사이즈 733px에 최적화되어 있습니다.
+			]]>
+		</description>
+		<license>
+			<![CDATA[수정, 재배포 가능합니다.]]>
+		</license>
+	</information>
+	<author>
+		<name>tistory</name>
+		<homepage>http://www.tistory.com</homepage>
+		<email>tistoryblog@hanmail.net</email>
+	</author>
+	<default>
+		<recentEntries>5</recentEntries>
+		<recentComments>5</recentComments>
+		<recentTrackbacks>5</recentTrackbacks>
+		<itemsOnGuestbook>5</itemsOnGuestbook>
+		<tagsInCloud>30</tagsInCloud>
+		<sortInCloud>3</sortInCloud>
+		<expandComment>0</expandComment>
+		<lengthOfRecentNotice>23</lengthOfRecentNotice>
+		<lengthOfRecentEntry>21</lengthOfRecentEntry>
+		<lengthOfRecentComment>16</lengthOfRecentComment>
+		<lengthOfRecentTrackback>16</lengthOfRecentTrackback>
+		<lengthOfLink>23</lengthOfLink>
+		<showListOnCategory>1</showListOnCategory>
+		<showListOnArchive>1</showListOnArchive>
+		<trackbackMessage>
+			<none>트랙백 &lt;span class="cnt"&gt;0&lt;/span&gt;</none>
+			<single>트랙백 &lt;span class="cnt"&gt;1&lt;/span&gt;</single>
+		</trackbackMessage>
+		<commentMessage>
+			<none>댓글 &lt;span class="cnt"&gt;0&lt;/span&gt;</none>
+			<single>댓글 &lt;span class="cnt"&gt;1&lt;/span&gt;</single>
+		</commentMessage>
+		<tree>
+			<color>2A556A</color>
+			<bgColor></bgColor>
+			<activeColor>2A556A</activeColor>
+			<activeBgColor></activeBgColor>
+			<labelLength>20</labelLength>
+			<showValue>1</showValue>
+		</tree>
+		<contentWidth>733</contentWidth>
+		<toolbar>white</toolbar>
+		<layout>10</layout>
+	</default>
+</skin>
