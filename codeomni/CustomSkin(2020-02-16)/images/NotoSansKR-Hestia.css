@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans Thin'), local('NotoSans-Thin'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Thin-Hestia.eot),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Thin-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Thin-Hestia.woff) format('woff'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Thin-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans Light'), local('NotoSans-Light'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Light-Hestia.eot),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Light-Hestia.woff) format('woff'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Light-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 350;
+    src: local('Noto Sans DemiLight'), local('NotoSans-DemiLight'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-DemiLight-Hestia.eot),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+}
+
+
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Regular-Hestia.eot),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Regular-Hestia.woff) format('woff'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Regular-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Medium-Hestia.eot),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Medium-Hestia.woff) format('woff'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Medium-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Bold-Hestia.eot),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Bold-Hestia.woff) format('woff'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Bold-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Noto Sans Black'), local('NotoSans-Black'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Black-Hestia.eot),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Black-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Black-Hestia.woff) format('woff'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/NotoSansKR-Black-Hestia.otf) format('opentype');
+}
