@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>codeomni.tistory.com javascript autofocus 입력 양식 자동 초점 설정 소스 코드</title>
+		<style>
+			body {
+				background-color: rgb(255, 106, 88);
+			}
+		</style>
+		<script>
+			window.onload = function () {
+            var input1 = document.querySelectorAll('input')[0];
+            var input2 = document.querySelectorAll('input')[1];
+            input1.onkeydown = function () {
+                if (10 <= input1.value.length) {
+                    input2.focus();
+                }
+            };
+            input2.onkeydown = function (event) {
+                var event = event || window.event;  
+                if (event.keyCode == 10 && input2.value.length == 0) {
+                    input1.focus();
+                }
+            };
+        };
+		</script>
+	</head>
+	<body>
+		<div>
+			<h1>codeomni.tistory.com</h1>
+		</div>
+		<div>
+			<label for="ID">학번</label>
+			<input type="text" maxlength="10" name="ID">
+			<br>
+			<label for="PW">비밀번호</label>
+			<input type="password" maxlength="10" name="PW">
+		</div>
+	</body>
+</html>

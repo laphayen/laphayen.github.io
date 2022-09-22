@@ -1,632 +1,780 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IAMX, One Page Responsive HTML Resume Template">
+    <meta name="keywords" content="onepage, resume, CV HTML template, personal Vcard, html resume, free resume template, free HTML template, free bootstrap template, personal portfolio, free html portfolio">
+	<meta name="author" content="http://trendytheme.net/">
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="copyright" content="Copyright 2018 © 11618nathan.github.io. ALL Rights Reserved" />
+	<title>laphayen - Portfolio</title>
 
-        <meta name="auchor" content="G.C. Baek">
+    <!-- Embed Github contributions graph in website -->
+    <!-- Prepare a container for your calendar. -->
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+    </script>
 
-        <title>11618nathan</title>
-
-        <!-- Web Page Logo -->
-        <link rel="icon" href="img/logo/logo.png">
-
-        <!-- Bootstrap Core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom Fonts -->
-        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-        <!-- Theme CSS -->
-        <link href="css/agency.min.css" rel="stylesheet">
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
 
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
+    <!-- Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<!-- Animate css -->
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <!-- Responsive CSS -->
+    <link href="assets/css/responsive.css" rel="stylesheet">
 
-    <body id="page-top" class="index" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-        <!-- Navigation -->
-        <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: black">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">11618nathan</a>
-                </div>
+    <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#services">Services</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#team">Team</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
+</head>
 
-        <!-- Header -->
-        <header>
-            <div class="container">
-                <div class="intro-text">
-                    <div class="intro-lead-in">!WELCOME TO HOMEPAGE!</div>
-                    <div class="intro-heading">It's Nice To Meet You</div>
-                    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-                </div>
-            </div>
-        </header>
-        
+<body>
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html" style="font-size: 40px; padding: 20px;">PORTFOLIO</a>
+				</div>
 
-        <!-- Services Section -->
-        <section id="services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Services</h2>
-                        <h3 class="section-subheading text-muted">We offer much better service.</h3>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Information</h4>
-                        <p class="text-muted">Supports Web services and open standards and offers tools for integration With existing applications. These can be thought of as just another type of service in much the same way as web services.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-android fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Android</h4>
-                        <p class="text-muted">Android is open source software, meaning that anyone can use and modify it at no cost. Provides the ability to expand applications choices to include many open source applications.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-share-alt fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Web Share</h4>
-                        <p class="text-muted">Easily and safely shorten and share web links. Gain and share access to models via web and mobile devices. Copy this web link and paste it into other apps to share it with other people.</p>
-                    </div>
-                </div>
-            </div>
-        </section> 
-        <!-- Portfolio Grid Section -->
-        <section id="portfolio" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Portfolio</h2>
-                        <h3 class="section-subheading text-muted"></h3>
-                        
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img\portfolio\openso.jpg" class="img-responsive" alt="opensource">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Open Source</h4>
-                            <p class="text-muted">Introduce about Open Source</p>
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">About</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">About Me</h2>
+            <div class="row">
+                <div class="col-md-4 col-md-push-8">
+                    <div class="biography">
+                        <div class="myphoto">
+                            <img src="assets/images/myPhoto.png" alt="">
                         </div>
+                        <ul>
+                            <li><strong>Name:</strong> Baek GiChan</li>
+                            <li><strong>Date of birth:</strong> 28 May 1997</li>
+                            <li><strong>Address:</strong> 239/2 Awesome Street, USA</li>
+                            <li><strong>Nationality:</strong> Korean</li>
+                            <li><strong>Phone:</strong> (010) 4656 3450</li>
+                            <li><strong>Email:</strong> laphayen@gmail.com</li>
+                        </ul>
                     </div>
-
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img\portfolio\HTML5-CSS-JavaScript.png" class="img-responsive" alt="HTML5-CSS-JavaScript">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>HTML5 + CSS + JS</h4>
-                            <p class="text-muted">How to make this Web Page</p>
-                        </div>
+                </div> <!-- col-md-4 -->
+                <div class="col-md-8 col-md-pull-4">
+                    <div class="short-info wow fadeInUp">
+                        <h3>Objective</h3>
+                        <p>An opportunity to work and upgrade oneself, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community. I'm presently expanding my solid experience in UI / UX design. I focus on using my interpersonal skills to build good user experience and create a strong interest in my employers. I hope to develop skills in motion design and my knowledge of the Web, and become an honest asset to the business. As an individual, I'm self-confident you’ll find me creative, funny and naturally passionate. I’m a forward thinker, which others may find inspiring when working as a team.</p>
                     </div>
-
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img\portfolio\GGUBob.png" class="img-responsive" alt="GGUBob">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>GGUBob</h4>
-                            <p class="text-muted">Android Application</p>   
-                        </div>
+                    <div class="short-info wow fadeInUp">
+                        <h3>What I Do ?</h3>
+                        <p>I have been working as a web interface designer since. I have a love of clean, elegant styling, and I have lots of experience in the production of CSS3 and HTML5 for modern websites. I loving creating awesome as per my clients’ need. I think user experience when I try to craft something for my clients. Making a design awesome.</p>
+                        <ul class="list-check">
+                            <li>User Experience Design</li>
+                            <li>Interface Design</li>
+                            <li>Product Design</li>
+                            <li>Branding Design</li>
+                            <li>Digital Painting</li>
+                            <li>Video Editing</li>
+                        </ul>
                     </div>
-
-                    <!-- blog content
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img\portfolio\codeomni.png" class="img-responsive" alt="codeomni">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4></h4>
-                            <p class="text-muted"></p>   
-                        </div>
+                    <!-- 
+                    <div class="download-button">
+                        <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+                        <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i>download my cv</a>
                     </div>
                     -->
-
                 </div>
-            </div>
-        </section>
+            </div> <!-- /.row -->
+        </div> <!-- /.container-->
+    </section><!-- End About Section -->
 
-        <!-- About Section -->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">About</h2>
-                        <h3 class="section-subheading text-muted">IN the Fall of 2017. 11618nathan site was born. Back then, the founder had no idea what the company would become. They just knew they wanted to make great service that people would enjoy for years. To do so, We would create a new kind of servicing company.</h3>
+    <!-- GitHub Section -->
+    <section>
+        <!-- Prepare a container for your calendar. -->
+        <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+        </div>
+    </section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Resume</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Education</h3>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
+                    <div class="resume">
                         <ul class="timeline">
                             <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/about/1.png" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>June 2016</h4>
-                                        <h4 class="subheading">Our Humble Beginnings</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">The Web Service task is initiated. We offer expert website optimization services.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>September 2016</h4>
-                                        <h4 class="subheading">Semantic Web &amp; Media Queries</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Construction of lntelligent Web Search Agents on the Internet</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>November 2016</h4>
-                                        <h4 class="subheading">CSS Framework</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Web Services, in particular, provide a component model for the composition of functions that make up and support distributed systems and grids.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <h4>Be Part
-                                        <br>Of Our
-                                        <br>Story!</h4>
-                                </div>
+                                <div class="posted-date">
+                                    <span class="month">16.03~</span>
+                                </div><!-- /posted-date -->
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>금강대학교</h3>
+                                            <span>14-9 Daemyeong-ri, Sangwol-myeon, Nonsan-si, Chungcheongnam-do</span>
+                                        </div><!-- /timeline-heading -->
+                                        <div class="timeline-body">
+                                            <p>IT소프트웨어학과에 4학년 재학 중입니다.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Team Section -->
-        <section id="team" class="bg-light-gray" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Team</h2>
-                        <h3 class="section-subheading text-muted">Uh, let me introduce you to some members of our team.</h3>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">18.10.~20.07.</span>
+                                </div><!-- /posted-date -->
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>해군</h3>
+                                            <span>병과(특기) - 07-03(전산)</span>
+                                        </div><!-- /timeline-heading -->
+                                        <div class="timeline-body">
+                                            <p>위성통신장비, 디지털전문처리체계, 네트워크 중심의 정보통신기반체계, 유·무선 통신장비, 전산기 및 주변장치 운용·정비에 관한 업무를 담당하였다.</p>
+                                            <p>근무지: 함정</p>
+                                            <a rel="stylesheet" type="text/css" href="/document/army_career.pdf" download><button>군경력 증명서</button></a>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row"  align="middle">
-                    <div class="col-sm-4">
-                        <div class="team-member">
-                            <img src="img/team/TAEM LumiEre.png" class="img-responsive img-circle" alt="">
-                            <h4>TEAM LumiEre</h4>
-                            <p class="text-muted">Android Application Project</p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+    </section><!-- End Resume Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+        <h2 class="section-title wow fadeInUp">Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-progress">
+                        <div class="skill-title"><h3>Python</h3>
+                    </div> 
+                    <div class="progress">
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                        </div>
+                    </div><!-- /.progress -->
+                </div><!-- /.skill-progress -->
+                <div class="skill-progress">
+                    <div class="skill-title"><h3>C++</h3>
+                    </div> 
+                    <div class="progress">
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                        </div>
+                    </div><!-- /.progress -->
+                </div><!-- /.skill-progress -->
+                <div class="skill-progress">
+                    <div class="skill-title"><h3>Java</h3>
+                    </div>  
+                    <div class="progress">
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                        </div>
+                    </div><!-- /.progress -->
+                </div><!-- /.skill-progress -->
+            </div><!-- /.col-md-6 -->
+
+            <div class="col-md-6">
+                <div class="skill-progress">
+                    <div class="skill-title"><h3>Node JS</h3>
+                    </div> 
+                    <div class="progress">
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                        </div>
+                    </div><!-- /.progress -->
+                </div><!-- /.skill-progress -->
+                <div class="skill-progress">
+                    <div class="skill-title"><h3>OpenCV</h3>
+                    </div> 
+                    <div class="progress">
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                        </div>
+                    </div><!-- /.progress -->
+                </div><!-- /.skill-progress -->
+                <div class="skill-progress">
+                    <div class="skill-title"><h3>React</h3>
+                    </div>  
+                    <div class="progress">
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                        </div>
+                    </div><!-- /.progress -->
+                </div><!-- /.skill-progress -->
+            </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+
+        <div class="skill-chart text-center">
+            <h3>More skills</h3>
+        </div>
+
+        <div class="row more-skill text-center">
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="chart" data-percent="70" data-color="#0f4c81">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                        <span>leadership</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="chart" data-percent="91" data-color="#0f4c81">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                        <span>Creativity</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                        <span>Management</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                        <span>Branding</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="chart" data-percent="21" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                        <span>Marketing</span>
+                    </div>
+                </div>
+            </div>
+                <div class="col-xs-12 col-sm-4 col-md-2">
+                    <div class="chart" data-percent="87" data-color="3498db">
+                        <span class="percent"></span>
+                        <div class="chart-text">
+                            <span>Motivation</span>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p class="large text-muted">THE BEST PEOPLE MAKE THE BEST THINGS</p>
-                    </div>
+            </div>
+        </div><!-- /.container -->
+    </section><!-- End Skills Section -->
+
+
+    <!-- 포트폴리오 -->
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="latest-blog-section section-padding">
+        <div class="container">
+            <!-- 제목 -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title wow fadeInUp">Portfolio</h2>
+                    <h3 class="section-subheading text-muted"></h3>            
                 </div>
             </div>
-        </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Contact Us</h2>
-                        <h3 class="section-subheading text-muted"></h3>
-                        <h3 class="section-subheading text-muted"></h3>
-                        <br>
-                        <h3 class="section-subheading text-muted">We look forward to hearing from you.<br>You can contact us at any time.<br>Please feel free to contact us.</h3>
-                        <br>
-                        <h5 class="section-heading"></h3>
-                        <br>
-                        <!--
-                        <h5 class="section-heading">Call: 010-4656-3450</h3>
-                        -->
-                        <br>
-                        <h5 class="section-heading">E-mail: 11618nathan@gmail.com</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; 11618nathan.github.io 2019</span>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline quicklinks">
-                            <li><a href="#">Privacy Policy</a>
-                            </li>
-                            <li><a href="#">Terms of Use</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Portfolio Modals -->
-        <!-- Portfolio Modal 1 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
+            <!--개별 포트폴리오-->
+            <div class="row">
+                <!--1번 포트폴리오-->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img src="img\portfolio\openso.jpg" class="img-responsive" alt="opensource">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Open Source</h4>
+                        <p class="text-muted">Introduce about Open Source</p>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <h2>Open Source</h2>
-                                    <p class="item-intro text-muted">Introduce about Open Source</p>
-                                    <img class="img-responsive img-centered" src="img\portfolio\opensosmall.jpg" alt="Open Source logo.jpg">
-                                    <p>Today's topic is Open Source. My major is Computer Science. I have received many questions about making APP. this is a secret. But I show how to make APP. I answer briefly and to the point. <strong>The vital point is Open Source. </strong>Have you ever heard the open source? Open source is providing free source code and software. Let me explain some merits. Open source is no longer something that is known or understood by only a small number of geeks.</p>
-                                    <p>
-                                        <strong>It is open to everyone. </strong>Literally anyone can get involved. The word is out about open and community source. The platform will create an environment in which anybody can submit their ideas and take part in the process of launching a small business. Provides the ability to expand applications choices to include many open source applications. So, The Android Operating System is also based on open source, meaning that anyone can use and modify it at no cosst. You can make your app!. Using open source technology to develop and deploy your applications can provide significant benefits. Moreover, Open source can help leverage money for technology more effectively. Because open source is free, We can share knowledge much faster. Many businesses have turned to open source-based software to reduce up-front acquisition costs. Finally, Open source developers and innovators should not fear infringement.</p>
-                                    <p>Thanks for your help in passing this information on.</p>
-                                    <ul class="list-inline">
-                                        <li>Date: 2016-11-29</li> 
-                                        <li>Category: Introduce</li>
-                                    </ul>
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
+                </div>
+
+
+                <!--2번 포트폴리오-->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img\portfolio\HTML5-CSS-JavaScript.png" class="img-responsive" alt="HTML5-CSS-JavaScript">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>HTML5 + CSS + JS</h4>
+                        <p class="text-muted">How to make this Web Page</p>
+                    </div>
+                </div>
+
+
+                <!--3번 포트폴리오-->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img\portfolio\GGUBob.png" class="img-responsive" alt="GGUBob">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>GGUBob</h4>
+                        <p class="text-muted">Android Application</p>   
+                    </div>
+                </div>
+
+                <!--1번 포트폴리오-->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img\portfolio\openso.jpg" class="img-responsive" alt="opensource">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Open Source</h4>
+                        <p class="text-muted">Introduce about Open Source</p>
+                    </div>
+                </div>
+
+
+                <!--2번 포트폴리오-->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img\portfolio\HTML5-CSS-JavaScript.png" class="img-responsive" alt="HTML5-CSS-JavaScript">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>HTML5 + CSS + JS</h4>
+                        <p class="text-muted">How to make this Web Page</p>
+                    </div>
+                </div>
+
+
+                <!--3번 포트폴리오-->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img\portfolio\GGUBob.png" class="img-responsive" alt="GGUBob">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>GGUBob</h4>
+                        <p class="text-muted">Android Application</p>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modals -->
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Open Source</h2>
+                                <p class="item-intro text-muted">Introduce about Open Source</p>
+                                <img class="img-responsive img-centered" src="img\portfolio\opensosmall.jpg" alt="Open Source logo.jpg">
+                                <p>Today's topic is Open Source. My major is Computer Science. I have received many questions about making APP. this is a secret. But I show how to make APP. I answer briefly and to the point. <strong>The vital point is Open Source. </strong>Have you ever heard the open source? Open source is providing free source code and software. Let me explain some merits. Open source is no longer something that is known or understood by only a small number of geeks.</p>
+                                <p>
+                                    <strong>It is open to everyone. </strong>Literally anyone can get involved. The word is out about open and community source. The platform will create an environment in which anybody can submit their ideas and take part in the process of launching a small business. Provides the ability to expand applications choices to include many open source applications. So, The Android Operating System is also based on open source, meaning that anyone can use and modify it at no cosst. You can make your app!. Using open source technology to develop and deploy your applications can provide significant benefits. Moreover, Open source can help leverage money for technology more effectively. Because open source is free, We can share knowledge much faster. Many businesses have turned to open source-based software to reduce up-front acquisition costs. Finally, Open source developers and innovators should not fear infringement.</p>
+                                <p>Thanks for your help in passing this information on.</p>
+                                <ul class="list-inline">
+                                    <li>Date: 2016-11-29</li> 
+                                    <li>Category: Introduce</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
  
-        <!-- Portfolio Modal 2 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
-                            </div>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    <h2>How to Make This Hompage!</h2>
-                                    <p class="item-intro text-muted">We make new HomePage</p>
-                                    <img class="img-responsive img-centered" src="img\portfolio\HTML5-CSS-JavaScriptsmall.png" alt="Open Source logo.jpg">
-                                    <ul class="list-inline">
-                                    <p>The most widely used web design languages are HTML(Hyper Text Markup Language), XML(eXtensible Markup Language), ASP(Active Server Page), Visual Basic(.Net). HTML is widely liked because of its ease of use. HTML is an application of SGML. This site is nuts and bolts HTML.</p>
-                                    <p><strong>if you can make this homepage</strong></p>
-                                    <p>There is a way to easily make a homepage using HTML. First, open a text editor. On a Window computer, you’ll usually Notepad, whereas Mac users will use TextEdit. Web pages can be created and modified by using professional HTML editors. Next, write some HTML write or copy some HTML into Notepad. After that, save the HTML page. Save the file on your computer. Select file > Save as in Notepad menu. Name the file “index.htm” and set the encoding to UTF-8. Next, close your text editor. At this point, you’re ready to open your HTML file in your browser so that you can view your web page. Finally, view the HTML page in your browser. Open the saved HTML file in your favorite browser. Edit the HTML document if needed. In short, you can easily make a homepage this way.</p>
-                                    <p>Thanks for your help in passing this information on.</p>
-                                        <!--DAte modify-->
-                                        <li>Date: 2016-11-06</li>
-                                        <li>Client: Class</li>
-                                        <li>Category: Introduce</li>
-                                    </ul>
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>How to Make This Hompage!</h2>
+                                <p class="item-intro text-muted">We make new HomePage</p>
+                                <img class="img-responsive img-centered" src="img\portfolio\HTML5-CSS-JavaScriptsmall.png" alt="Open Source logo.jpg">
+                                <ul class="list-inline">
+                                <p>The most widely used web design languages are HTML(Hyper Text Markup Language), XML(eXtensible Markup Language), ASP(Active Server Page), Visual Basic(.Net). HTML is widely liked because of its ease of use. HTML is an application of SGML. This site is nuts and bolts HTML.</p>
+                                <p><strong>if you can make this homepage</strong></p>
+                                <p>There is a way to easily make a homepage using HTML. First, open a text editor. On a Window computer, you’ll usually Notepad, whereas Mac users will use TextEdit. Web pages can be created and modified by using professional HTML editors. Next, write some HTML write or copy some HTML into Notepad. After that, save the HTML page. Save the file on your computer. Select file > Save as in Notepad menu. Name the file “index.htm” and set the encoding to UTF-8. Next, close your text editor. At this point, you’re ready to open your HTML file in your browser so that you can view your web page. Finally, view the HTML page in your browser. Open the saved HTML file in your favorite browser. Edit the HTML document if needed. In short, you can easily make a homepage this way.</p>
+                                <p>Thanks for your help in passing this information on.</p>
+
+                                <!--DAte modify-->
+                                <ul>
+                                    <li>Date: 2016-11-06</li>
+                                    <li>Client: Class</li>
+                                    <li>Category: Introduce</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- Portfolio Modal 3 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
-                            </div>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    <h2>GGUBob</h2>
-                                    <p class="item-intro text-muted">Android Application</p>
-                                    <img class="img-responsive img-centered" src="img\portfolio\GGUBob.png" alt="Open Source logo.jpg">
-                                    <ul class="list-inline">
-                                    <p>Hello, we are TEAM LumiEre{11618nathan, symk8320}. Our team is always doing creative and convenient work. This app, GGUBob2, is an Android-academic application at geumgang University. It eliminates the hassle of visiting and checking Internet school homepages through Android applications and provides users with an UI for their convenience.</p>
-                                    <br>
-                                    <p><strong> </strong></p>
-                                    <ul style="list-style:none;">
-                                        <h4>Need for development, Objective Necessity</h4>
-                                        <li>Difficult to see learned menus on mobile webpages.</li>
-                                        <li>Delivering enhanced services to users online.</li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <ul style="list-style:none;">
-                                        <h4>Goal</h4>
-                                        <li>Use HTML Parsing to import only a portion of a webpage.</li>
-                                        <li>Developed as a native app with high user satisfaction.</li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <ul style="list-style:none;">
-                                        <h4>Characteristics</h4>
-                                        <li>Use the easy UI.</li>
-                                        <li>Enhanced personal record protection.</li>
-                                        <li>Remove abnormal shutdown.</li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <ul style="list-style:none;">
-                                        <h4>Development environment</h4>
-                                        <li>Development language: Java, Android, XML, jar</li>
-                                        <li>Development OS: Android 4.0.3 or higher</li>
-                                        <li>Emulator: Android AVD</li>
-                                        <li>Development Tools: Android Studio 2. 0</li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <ul style="list-style:none;">
-                                        <h4>Store Registration</h4>
-                                        <li>Android Play Store</li>
-                                        <li>Size: 2.6M</li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <p>Thanks for your help in passing this information on.</p>
-                                        <!--DAte modify-->
-                                        <li>Date: 2018-09-27</li>
-                                        <li>Client: Student</li>
-                                        <li>Category: Introduce</li>
-                                    </ul>
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>GGUBob</h2>
+                                <p class="item-intro text-muted">Android Application</p>
+                                <img class="img-responsive img-centered" src="img\portfolio\GGUBob.png" alt="Open Source logo.jpg">
+                                <ul class="list-inline">
+                                <p>Hello, we are TEAM LumiEre{11618nathan, symk8320}. Our team is always doing creative and convenient work. This app, GGUBob2, is an Android-academic application at geumgang University. It eliminates the hassle of visiting and checking Internet school homepages through Android applications and provides users with an UI for their convenience.</p>
+                                <br>
+                                <p><strong> </strong></p>
+                                <ul style="list-style:none;">
+                                    <h4>Need for development, Objective Necessity</h4>
+                                    <li>Difficult to see learned menus on mobile webpages.</li>
+                                    <li>Delivering enhanced services to users online.</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <h4>Goal</h4>
+                                    <li>Use HTML Parsing to import only a portion of a webpage.</li>
+                                    <li>Developed as a native app with high user satisfaction.</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <h4>Characteristics</h4>
+                                    <li>Use the easy UI.</li>
+                                    <li>Enhanced personal record protection.</li>
+                                    <li>Remove abnormal shutdown.</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <h4>Development environment</h4>
+                                    <li>Development language: Java, Android, XML, jar</li>
+                                    <li>Development OS: Android 4.0.3 or higher</li>
+                                    <li>Emulator: Android AVD</li>
+                                    <li>Development Tools: Android Studio 2. 0</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <h4>Store Registration</h4>
+                                    <li>Android Play Store</li>
+                                    <li>Size: 2.6M</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <p>Thanks for your help in passing this information on.</p>
+                                    <!--DAte modify-->
+                                    <li>Date: 2018-09-27</li>
+                                    <li>Client: Student</li>
+                                    <li>Category: Introduce</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
+    <div> 
+    </div>
 
-
-        <!-- Portfolio Modal 4 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
-                            </div>
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    <h2>codeomni</h2>
-                                    <p class="item-intro text-muted">make blog</p>
-                                    <img class="img-responsive img-centered" src="img\portfolio\codeomni.png" alt="codeomni.jpg">
-                                    <ul class="list-inline">
-                                    <p></p>
-                                    <br>
-                                    <p><strong> </strong></p>
-                                    <ul style="list-style:none;">
-                                        <h4></h4>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <ul style="list-style:none;">
-                                        <h4></h4>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <ul style="list-style:none;">
-                                        <h4></h4>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <ul style="list-style:none;">
-                                        <h4></h4>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <ul style="list-style:none;">
-                                        <h4></h4>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                    <br>
-                                    <br>
-                                    <p></p>
-                                        <!--DAte modify-->
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Open Source</h2>
+                                <p class="item-intro text-muted">Introduce about Open Source</p>
+                                <img class="img-responsive img-centered" src="img\portfolio\opensosmall.jpg" alt="Open Source logo.jpg">
+                                <p>Today's topic is Open Source. My major is Computer Science. I have received many questions about making APP. this is a secret. But I show how to make APP. I answer briefly and to the point. <strong>The vital point is Open Source. </strong>Have you ever heard the open source? Open source is providing free source code and software. Let me explain some merits. Open source is no longer something that is known or understood by only a small number of geeks.</p>
+                                <p>
+                                    <strong>It is open to everyone. </strong>Literally anyone can get involved. The word is out about open and community source. The platform will create an environment in which anybody can submit their ideas and take part in the process of launching a small business. Provides the ability to expand applications choices to include many open source applications. So, The Android Operating System is also based on open source, meaning that anyone can use and modify it at no cosst. You can make your app!. Using open source technology to develop and deploy your applications can provide significant benefits. Moreover, Open source can help leverage money for technology more effectively. Because open source is free, We can share knowledge much faster. Many businesses have turned to open source-based software to reduce up-front acquisition costs. Finally, Open source developers and innovators should not fear infringement.</p>
+                                <p>Thanks for your help in passing this information on.</p>
+                                <ul class="list-inline">
+                                    <li>Date: 2016-11-29</li> 
+                                    <li>Category: Introduce</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <!-- basic example  -->
-        <!--
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
-                            </div>
+    </div>
+ 
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    
-                                    <h2>Audino</h2>
-                                    <p class="item-intro text-muted">Line tracer</p>
-                                    <img class="img-responsive img-centered" src="" alt="">
-                                    <p>Treehouse is a free PSD web template built by <a href="#">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                    <p>You can download the PSD template in this portfolio sample item at <a href="#">FreebiesXpress.com</a>.</p>
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>How to Make This Hompage!</h2>
+                                <p class="item-intro text-muted">We make new HomePage</p>
+                                <img class="img-responsive img-centered" src="img\portfolio\HTML5-CSS-JavaScriptsmall.png" alt="Open Source logo.jpg">
+                                <ul class="list-inline">
+                                <p>The most widely used web design languages are HTML(Hyper Text Markup Language), XML(eXtensible Markup Language), ASP(Active Server Page), Visual Basic(.Net). HTML is widely liked because of its ease of use. HTML is an application of SGML. This site is nuts and bolts HTML.</p>
+                                <p><strong>if you can make this homepage</strong></p>
+                                <p>There is a way to easily make a homepage using HTML. First, open a text editor. On a Window computer, you’ll usually Notepad, whereas Mac users will use TextEdit. Web pages can be created and modified by using professional HTML editors. Next, write some HTML write or copy some HTML into Notepad. After that, save the HTML page. Save the file on your computer. Select file > Save as in Notepad menu. Name the file “index.htm” and set the encoding to UTF-8. Next, close your text editor. At this point, you’re ready to open your HTML file in your browser so that you can view your web page. Finally, view the HTML page in your browser. Open the saved HTML file in your favorite browser. Edit the HTML document if needed. In short, you can easily make a homepage this way.</p>
+                                <p>Thanks for your help in passing this information on.</p>
+
+                                <!--DAte modify-->
+                                <ul>
+                                    <li>Date: 2016-11-06</li>
+                                    <li>Client: Class</li>
+                                    <li>Category: Introduce</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        -->
+    </div>
 
-        <!-- jQuery -->
-        <script src="vendor/jquery/jquery.min.js"></script>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>GGUBob</h2>
+                                <p class="item-intro text-muted">Android Application</p>
+                                <img class="img-responsive img-centered" src="img\portfolio\GGUBob.png" alt="Open Source logo.jpg">
+                                <ul class="list-inline">
+                                <p>Hello, we are TEAM LumiEre{11618nathan, symk8320}. Our team is always doing creative and convenient work. This app, GGUBob2, is an Android-academic application at geumgang University. It eliminates the hassle of visiting and checking Internet school homepages through Android applications and provides users with an UI for their convenience.</p>
+                                <br>
+                                <p><strong> </strong></p>
+                                <ul style="list-style:none;">
+                                    <h4>Need for development, Objective Necessity</h4>
+                                    <li>Difficult to see learned menus on mobile webpages.</li>
+                                    <li>Delivering enhanced services to users online.</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <h4>Goal</h4>
+                                    <li>Use HTML Parsing to import only a portion of a webpage.</li>
+                                    <li>Developed as a native app with high user satisfaction.</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <h4>Characteristics</h4>
+                                    <li>Use the easy UI.</li>
+                                    <li>Enhanced personal record protection.</li>
+                                    <li>Remove abnormal shutdown.</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <h4>Development environment</h4>
+                                    <li>Development language: Java, Android, XML, jar</li>
+                                    <li>Development OS: Android 4.0.3 or higher</li>
+                                    <li>Emulator: Android AVD</li>
+                                    <li>Development Tools: Android Studio 2. 0</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <h4>Store Registration</h4>
+                                    <li>Android Play Store</li>
+                                    <li>Size: 2.6M</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <p>Thanks for your help in passing this information on.</p>
+                                    <!--DAte modify-->
+                                    <li>Date: 2018-09-27</li>
+                                    <li>Client: Student</li>
+                                    <li>Category: Introduce</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!-- Plugin JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-        <!-- Contact Form JavaScript -->
-        <script src="js/jqBootstrapValidation.js"></script>
-        <script src="js/contact_me.js"></script>
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright text-center">
+                        <p>&copy; laphayen 2022. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer Section -->
 
-        <!-- Theme JavaScript -->
-        <script src="js/agency.min.js"></script>
 
-    </body>
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#">
+            <i class="fa fa-angle-up">
+            </i>
+        </a>
+	</div>
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.countTo.js"></script>
+    <script src="assets/js/jquery.inview.min.js"></script> 
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/jquery.shuffle.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+    <script src="assets/js/jquery.fitvids.js"></script>
+    <script src="assets/js/scripts.js?v=2"></script>
+
+    <!--git calendar java scripit-->
+    <script>new GitHubCalendar(".calendar", "laphayen", { responsive: true });</script>
+
+</body>
 </html>
-
