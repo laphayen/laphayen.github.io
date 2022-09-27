@@ -140,7 +140,7 @@ jQuery(function ($) {
                 //your configuration goes here
                 easing: 'easeOut',
                 delay: 3000,
-                barColor:'#68c3a3',
+                barColor:'#b9f1fe',
                 trackColor:'rgba(255,255,255,0.2)',
                 scaleColor: false,
                 lineWidth: 8,
